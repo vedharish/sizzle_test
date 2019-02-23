@@ -52,7 +52,7 @@ module.exports = function( grunt ) {
     ];
 
     browsers.ios = [
-      "bs_ios-5.1", "bs_ios-6.0", "bs_ios-7.0", "bs_ios-8.3", "bs_ios-9.3", "bs_ios-10.3",
+      "bs_ios-5.1", "bs_ios-6.0", "bs_ios-7.0", "bs_ios-8.3", "bs_ios-9.3", //"bs_ios-10.3",
 
       "bs_ios-11.4", "bs_ios-12.1",
     ];
