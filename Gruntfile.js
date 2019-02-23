@@ -28,6 +28,9 @@ module.exports = function( grunt ) {
   // if Browserstack is set up, assume we can use it
   if ( isBrowserStack ) {
 
+    setInterval(function() {
+      console.log("testtesttest");
+    }, 30000);
     // See https://github.com/jquery/sizzle/wiki/Sizzle-Documentation#browsers
 
     browsers.desktop = [
