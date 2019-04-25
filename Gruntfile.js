@@ -35,26 +35,10 @@ module.exports = function( grunt ) {
 
     browsers.desktop = [
       "bs_chrome-45", // shares V8 with Node.js 4 LTS
-      "bs_chrome-70", "bs_chrome-71",
-
-      "bs_firefox-52", "bs_firefox-60", // Firefox ESR
-      "bs_firefox-63", "bs_firefox-64",
-
-      "bs_edge-17", "bs_edge-18",
-
-      "bs_ie-9", "bs_ie-10", "bs_ie-11",
-
-      "bs_opera-56", "bs_opera-57",
-
-      // Real Safari 6.1 and 7.0 are not available
-      "bs_safari-6.0", "bs_safari-8.0", "bs_safari-9.1", "bs_safari-10.1",
-      "bs_safari-11.1", "bs_safari-12.0",
     ];
 
     browsers.ios = [
-      "bs_ios-5.1", "bs_ios-6.0", "bs_ios-7.0", "bs_ios-8.3", "bs_ios-9.3", //"bs_ios-10.3",
-
-      "bs_ios-11.4", "bs_ios-12.1",
+      "bs_ios-12.1",
     ];
     browsers.android = [
       "bs_android-5.0", "bs_android-5.1", "bs_android-6.0", "bs_android-7.0",
@@ -64,9 +48,9 @@ module.exports = function( grunt ) {
     browsers.old = {
       firefox: [ "bs_firefox-3.6" ],
       chrome: [ "bs_chrome-16" ],
-      safari: [ "bs_safari-4.0", "bs_safari-5.0", "bs_safari-5.1" ],
-      ie: [ "bs_ie-7", "bs_ie-8" ],
-      opera: [ "bs_opera-11.6", "bs_opera-12.16" ],
+      safari: [ "bs_safari-5.1" ],
+      ie: [ "bs_ie-8" ],
+      opera: [ "bs_opera-12.16" ],
       android: [ "bs_android-4.4" ]
     };
   }
